@@ -26,6 +26,24 @@
         <h1 id="title" class="first"></h1> <!--h1#title.first-->
         <div id="firstDiv"></div> <!--#firstDiv-->
         <div id="father"><span id="son"></span></div> <!--#father>span#son-->
+
+        <div id="nested"> <!--#nested>h2{subheading}+ol>li*4{Item$}-->
+            <h2>subheading</h2>
+            <ol>
+                <li>Item1</li>
+                <li>Item2</li>
+                <li>Item3</li>
+                <li>Item4</li>
+            </ol>
+        </div>
     </main>
+    <footer> <!--footer>(ul>li*3{Item $})+p{I am not a nested paragraph}-->
+        <ul>
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+        </ul>
+        <p>I am not a nested paragraph</p>
+    </footer>
 </body>
 </html>
