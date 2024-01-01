@@ -1,0 +1,16 @@
+a{
+    display: block;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+a:hover{
+    text-decoration:underline;
+    color: red;
+}
+a:visited{
+    color: green;
+}
+a:active{
+    color: yellow;
+}
