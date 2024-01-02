@@ -1,0 +1,41 @@
+a{
+  text-decoration: underline;
+  color: blue;
+}
+a:hover{
+  font-weight: bold;
+}
+a:active{
+  color: #eee;
+}
+
+.navigation .nav-link:hover{
+  font-weight: bold;
+}
+.btn{
+  border: 1px solid blue;
+  text-decoration: none;
+  background-color: blue;
+  color: white;
+  border-radius: 10px;
+  padding: 5px;
+  box-shadow: 3px 3px 3px black;
+}
+.btn:hover{
+  color: #ddd;
+}
+.btn:active{
+  box-shadow: 0px 0px 0px black;
+  color: grey;
+}
+.activity{
+  border-radius: 20px;
+  box-shadow: 4px 4px 4px blue;
+}
+.activity:hover {
+  opacity: 0.9;
+}
+.activity:active{
+  box-shadow: 2px 2px 1px blue;
+  margin-top: 6px;
+}
