@@ -25,3 +25,12 @@
   border-radius: 5px;
   border: 2px dodgerblue solid;
 }
+
+/*
+Order for grid-area:
+1. grid-row-start
+2. grid-column-start
+3. grid-row-end
+4. grid-column-end
+
+*/
